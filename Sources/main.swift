@@ -41,7 +41,7 @@ func mainMenu () {
 
   var mode = ""
 
-  while (true) {
+  while true {
     mode = readLine() ?? ""
 
     // if a mode has been correctly selected, stop the loop
@@ -54,7 +54,7 @@ func mainMenu () {
 
   print("")
   // select the mode based on the entered character
-  switch (mode) {
+  switch mode {
     case "v": 
       vocabularyMode()
     case "p":
