@@ -1,6 +1,6 @@
 import ColorizeSwift
 
-let version = 0.0
+let version = 0.1
 
 func introMessage () {
 
